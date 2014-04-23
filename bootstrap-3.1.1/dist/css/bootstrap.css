@@ -7,12 +7,12 @@
 @font-face {
   font-family: 'LatoBold';
 
-  src: url("../../../fonts/Lato-Bol.ttf") format("truetype");
+  src: url("../../../font/Lato-Bol.ttf") format("truetype");
 }
 @font-face {
   font-family: 'Novecento';
 
-  src: url("../../../fonts/Novecento.otf") format("opentype");
+  src: url("../../../font/Novecento.otf") format("opentype");
 }
 /*! normalize.css v3.0.0 | MIT License | git.io/normalize */
 html {

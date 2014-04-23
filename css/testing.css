@@ -25,16 +25,28 @@
 }
 
 /*.bg {
-  background: linear-gradient(to right, rgba(0,0,0,.9), rgba(0,0,0,0), rgba(0,0,0,.9)), url('../images/pixelbg.jpeg')  no-repeat;
+  background: linear-gradient(to right, rgba(0,0,0,.9), rgba(0,0,0,0), rgba(0,0,0,.9)), url('http://www.edpitt.com/img/edpittHero6.jpg')  no-repeat;
   position: fixed;
   width: 100%;
   height: 100%; 
+  background-size: 100%;
   top:0;
   left:0;
   z-index: -2;
 }*/
 
 .bg {
+  background: url('http://www.edpitt.com/img/edpittHero6.jpg') no-repeat;
+  position: fixed;
+  width: 100%;
+  height: 100%; 
+  background-size: 100%;
+  top:0;
+  left:0;
+  z-index: -2;
+}
+
+/*.bg {
   background: white;
   position: fixed;
   width: 100%;
@@ -42,22 +54,22 @@
   top:0;
   left:0;
   z-index: -2;
-}
+}*/
 
-/*.bgfilter {
-  background-color: rgba(43,113,173,.9);
+.bgfilter {
+  background-color: rgba(43,113,173,.85);
   position: fixed;
   width: 100%;
   height: 100%; 
   top:0;
   left:0;
   z-index: -1;
-}*/
+}
 
 #greeting {
-  padding: 50px 0px;
-  color: #121212;
-  text-shadow: #444 0 1px 1px;
+  padding-top: 40px;
+  /*color: #121212;*/
+  /*text-shadow: #444 0 1px 1px;*/
   background:transparent;
 }
 
@@ -68,15 +80,56 @@
   font-size: 20px;
 }
 
-#greeting hr {
-  border-top: 2px dotted #232323;
+.c1 hr {
+  border-top: 2px dotted #fff;
   /*background-color: #232323;*/
   /*height: 2px;*/
   width: 50px;
+  margin-top: 30px;
+  margin-bottom: 30px;
+}
+
+.c1 {
+  padding-bottom: 50px;
 }
 
 #greetheader {
+  font-size: 60px;
+}
+
+.intro {
+  font-size: 35px;
+  font-variant: small-caps;
+  line-height: 25px;
+}
+
+.intro p {
+  padding-top: 50px;
+}
+
+.greeting2 {
+  /*color: #232323;*/
+}
+
+.google {
+  font-family: "Perset", "Pacifico", sans-serif;
   font-size: 50px;
+}
+
+#g {
+  color: #0266C8; /*blue for the G's */
+}
+
+#oe {
+  color: #F90101; /*blue for the G's */
+}
+
+#o {
+  color: #F2B50F; /*blue for the G's */
+}
+
+#l {
+  color: #00933B; /*blue for the G's */
 }
 
 .offset {
@@ -101,18 +154,19 @@
   background-color: #1f1f1f;
 }
 
-/*.jumbotron > p {
-  font-family: 'Poly', sans-serif;
-  font-weight: 400;
-  font-style: italic;
-}*/
 @font-face {
   font-family: 'Pacifico';
-  src: url("../fonts/Pacifico.ttf") format("truetype");
+  src: url("../font/Pacifico.ttf") format("truetype");
 }
 
 @font-face {
   font-family: 'Allura';
-  src: url("../fonts/Allura.otf") format("truetype");
+  src: url("../font/Allura.otf") format("truetype");
 }
+
+@font-face {
+  font-family: 'Perset';
+  src: url("../font/Perset_Display.otf") format("truetype");
+}
+
 
