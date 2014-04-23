@@ -1,0 +1,92 @@
+@media all and (max-width: 1500px) { /* screen size until 1200px */
+    body {
+        font-size: 1.5em; /* 1.5x default size */
+    }
+}
+@media all and (max-width: 700px) { /* screen size until 800px */
+    body {
+        font-size: 1em; /* 1.2x default size */
+        }
+    }
+@media all and (max-width: 500px) { /* screen size until 500px */
+    body {
+        font-size: 0.5em; /* 0.8x default size */
+        }
+    #greeting > p {
+        font-family: 'Lora', sans-serif;
+        font-weight: 400;
+        font-style: italic;
+        font-size: .5em;
+      }
+
+    #greetheader {
+       font-size: 1em;
+    }
+}
+
+.bg {
+  background: linear-gradient(to right, rgba(0,0,0,.9), rgba(0,0,0,0), rgba(0,0,0,.9)), url('../images/pixelbg.jpeg')  no-repeat center center;
+  position: fixed;
+  width: 100%;
+  height: 100%; /*same height as jumbotron */
+  top:0;
+  left:0;
+  z-index: -1;
+}
+
+#greeting {
+  height: 700px;
+  color: white;
+  text-shadow: #444 0 1px 1px;
+  background:transparent;
+  padding-top: 100px;
+}
+
+#greeting > p {
+  font-family: 'Lora', sans-serif;
+  font-weight: 400;
+  font-style: italic;
+  font-size: 20px;
+}
+
+#greetheader {
+  font-size: 50px;
+}
+
+.offset {
+  margin-top: 25%;
+}
+
+.container-fluid {
+    background-color: black;
+}
+
+#quote {
+  font-family: "Pacifico", 'Lora', sans-serif;
+/*  font-weight: 400;
+  font-style: italic;*/
+  line-height: 150%;
+  font-size: 3em;
+  text-shadow: #444 0 1px 1px;
+}
+
+#aboutme {
+  margin-top: 200px;
+  background-color: #1f1f1f;
+}
+
+/*.jumbotron > p {
+  font-family: 'Poly', sans-serif;
+  font-weight: 400;
+  font-style: italic;
+}*/
+@font-face {
+  font-family: 'Pacifico';
+  src: url("../fonts/Pacifico.ttf") format("truetype");
+}
+
+@font-face {
+  font-family: 'Allura';
+  src: url("../fonts/Allura.otf") format("truetype");
+}
+
