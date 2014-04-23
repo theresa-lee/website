@@ -8,7 +8,7 @@
         font-size: 1em; /* 1.2x default size */
         }
     }
-@media all and (max-width: 500px) { /* screen size until 500px */
+@media all and (max-width: 480px) { /* screen size until 500px */
     body {
         font-size: 0.5em; /* 0.8x default size */
         }
@@ -36,11 +36,11 @@
 }*/
 
 .bg {
-  background: url('http://www.edpitt.com/img/edpittHero6.jpg') no-repeat;
+  background: url('http://themes.pixelb.in/induction/wp-content/uploads/2013/06/IMG_5766.jpg') no-repeat center center fixed;
   position: fixed;
   width: 100%;
   height: 100%; 
-  background-size: 100%;
+  background-size: cover;
   top:0;
   left:0;
   z-index: -2;
@@ -105,6 +105,7 @@
 
 .intro p {
   padding-top: 50px;
+  padding-bottom: 20px;
 }
 
 .greeting2 {
