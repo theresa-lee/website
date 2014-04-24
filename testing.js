@@ -22,7 +22,6 @@ $(".navbar-nav > li > a").click(function(e) {
       // Prevent a page reload when a link is pressed
     e.preventDefault(); 
       // Call the scroll function
-      console.log(this);
     goToByScroll($(this).attr("href"));           
 });
 
