@@ -25,3 +25,4 @@ $(".navbar-nav > li > a").click(function(e) {
       console.log(this);
     goToByScroll($(this).attr("href"));           
 });
+

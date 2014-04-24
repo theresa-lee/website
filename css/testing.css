@@ -104,6 +104,11 @@
   font-style: normal;
 }
 
+#test {
+  font-family: "LatoBold", sans-serif !important;
+  font-style: normal !important;
+}
+
 #g {
   color: #0266C8; /*blue for the G's */
 }
@@ -135,11 +140,45 @@
   line-height: 150%;
   font-size: 3em;
   text-shadow: #444 0 1px 1px;
+  border: 3px solid white;
+  padding: 20px 0;
+  margin-bottom: 20px;
 }
 
 #aboutme {
   margin-top: 200px;
   background-color: #1f1f1f;
+}
+
+#geisel {
+ /* width: 400px;*/
+  /*-webkit-filter: blur(3px) opacity(50%);*/
+  background-image: url("../images/beachblur.jpg");
+  background-size: cover;
+  height: 300px;
+  padding: 20px 0;
+}
+
+#geisel #greetheader {
+  -webkit-filter: blur(0) opacity(100%);
+}
+
+#ucsd {
+  font-size: 50px;
+}
+
+#ucsd .ucsdb {
+  color: #19198c;
+}
+
+#ucsd .ucsdy {
+  color: #ffd700;
+}
+
+img#headshot {
+  height: 100px;
+  border-radius: 50%;
+  /*border: 5px solid black;*/
 }
 
 @font-face {
@@ -155,6 +194,11 @@
 @font-face {
   font-family: 'Perset';
   src: url("../font/Perset_Display.otf") format("truetype");
+}
+
+@font-face {
+  font-family: 'LatoBold';
+  src: url("../../../font/Lato-Bol.ttf") format("truetype");
 }
 
 
