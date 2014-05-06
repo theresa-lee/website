@@ -1,0 +1,204 @@
+
+/*.bg {
+  background: linear-gradient(to right, rgba(0,0,0,.9), rgba(0,0,0,0), rgba(0,0,0,.9)), url('http://www.edpitt.com/img/edpittHero6.jpg')  no-repeat;
+  position: fixed;
+  width: 100%;
+  height: 100%; 
+  background-size: 100%;
+  top:0;
+  left:0;
+  z-index: -2;
+}*/
+
+.bg {
+  background: url('http://themes.pixelb.in/induction/wp-content/uploads/2013/06/IMG_5766.jpg') no-repeat center center fixed;
+  position: fixed;
+  width: 100%;
+  height: 100%; 
+  background-size: cover;
+  top:0;
+  left:0;
+  z-index: -2;
+}
+
+/*.bg {
+  background: white;
+  position: fixed;
+  width: 100%;
+  height: 100%; 
+  top:0;
+  left:0;
+  z-index: -2;
+}*/
+
+.bgfilter {
+  background-color: rgba(43,113,173,.85);
+  position: fixed;
+  width: 100%;
+  height: 100%; 
+  top:0;
+  left:0;
+  z-index: -1;
+}
+
+#greeting {
+  padding-top: 40px;
+  /*color: #121212;*/
+  /*text-shadow: #444 0 1px 1px;*/
+  background:transparent;
+}
+
+#greeting > p {
+  font-family: 'Lora', sans-serif;
+  font-weight: 400;
+  font-style: italic;
+  font-size: 20px;
+}
+
+#c1 hr {
+  border-top: 2px dotted #fff;
+  /*background-color: #232323;*/
+  /*height: 2px;*/
+  width: 50px;
+  margin-top: 30px;
+  margin-bottom: 30px;
+}
+
+#c1 {
+  padding-bottom: 40px;
+}
+
+#greetheader {
+  font-size: 60px;
+}
+
+.intro {
+  font-size: 35px;
+  font-variant: small-caps;
+  line-height: 25px;
+}
+
+.intro p {
+  padding-top: 50px;
+  padding-bottom: 30px;
+}
+
+.greeting2 {
+  /*color: #232323;*/
+}
+
+#c2 {
+  padding-top: 40px;
+}
+
+#c2 p {
+  font-family: 'Lora', sans-serif;
+  font-weight: 400;
+  font-style: italic;
+  font-size: 20px;
+}
+
+#google {
+  font-family: "Perset", "Pacifico", sans-serif;
+  font-size: 50px;
+  font-style: normal;
+}
+
+#test {
+  font-family: "LatoBold", sans-serif !important;
+  font-style: normal !important;
+}
+
+#g {
+  color: #0266C8; /*blue for the G's */
+}
+
+#oe {
+  color: #F90101; /*blue for the G's */
+}
+
+#o {
+  color: #F2B50F; /*blue for the G's */
+}
+
+#l {
+  color: #00933B; /*blue for the G's */
+}
+
+.offset {
+  height: 50px; /* size of the navbar */
+}
+
+.container-fluid {
+    background-color: #121212;
+}
+
+#quote {
+  font-family: "Amatic SC", "Pacifico", 'Lora', sans-serif;
+/*  font-weight: 400;
+  font-style: italic;*/
+  line-height: 150%;
+  font-size: 3em;
+  text-shadow: #444 0 1px 1px;
+  border: 3px solid white;
+  padding: 20px 0;
+  margin-bottom: 20px;
+}
+
+#aboutme {
+  margin-top: 200px;
+  background-color: #1f1f1f;
+}
+
+#geisel {
+ /* width: 400px;*/
+  /*-webkit-filter: blur(3px) opacity(50%);*/
+  background-image: url("../images/night.jpg");
+  background-size: cover;
+  height: 300px;
+  padding: 20px 0;
+}
+
+#geisel #greetheader {
+  -webkit-filter: blur(0) opacity(100%);
+}
+
+#ucsd {
+  font-size: 50px;
+}
+
+#ucsd .ucsdb {
+  color: #19198c;
+}
+
+#ucsd .ucsdy {
+  color: #ffd700;
+}
+
+img#headshot {
+  height: 100px;
+  border-radius: 50%;
+  /*border: 5px solid black;*/
+}
+
+@font-face {
+  font-family: 'Pacifico';
+  src: url("../font/Pacifico.ttf") format("truetype");
+}
+
+@font-face {
+  font-family: 'Allura';
+  src: url("../font/Allura.otf") format("truetype");
+}
+
+@font-face {
+  font-family: 'Perset';
+  src: url("../font/Perset_Display.otf") format("truetype");
+}
+
+@font-face {
+  font-family: 'LatoBold';
+  src: url("../font/Lato-Bol.ttf") format("truetype");
+}
+
+
