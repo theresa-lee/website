@@ -10,6 +10,16 @@
   src: url("../../../font/Lato-Bol.ttf") format("truetype");
 }
 @font-face {
+  font-family: 'LatoLight';
+
+  src: url("../../../font/Lato-Lig.ttf") format("truetype");
+}
+@font-face {
+  font-family: 'LatoHair';
+
+  src: url("../../../font/Lato-Hai.ttf") format("truetype");
+}
+@font-face {
   font-family: 'Novecento';
 
   src: url("../../../font/Novecento.otf") format("opentype");
@@ -176,9 +186,9 @@
   background-repeat: repeat-x;
 }
 .navbar-default {
-  background-image: -webkit-linear-gradient(top, rgba(26, 26, 26, .7) 0%, rgba(0, 0, 0, .7) 100%);
-  background-image:         linear-gradient(to bottom, rgba(26, 26, 26, .7) 0%, rgba(0, 0, 0, .7) 100%);
-  filter: progid:DXImageTransform.Microsoft.gradient(startColorstr='#b31a1a1a', endColorstr='#b3000000', GradientType=0);
+  background-image: -webkit-linear-gradient(top, rgba(111, 111, 111, .7) 0%, rgba(85, 85, 85, .7) 100%);
+  background-image:         linear-gradient(to bottom, rgba(111, 111, 111, .7) 0%, rgba(85, 85, 85, .7) 100%);
+  filter: progid:DXImageTransform.Microsoft.gradient(startColorstr='#b36f6f6f', endColorstr='#b3555555', GradientType=0);
   filter: progid:DXImageTransform.Microsoft.gradient(enabled = false);
   background-repeat: repeat-x;
   border-radius: 4px;
@@ -186,9 +196,9 @@
           box-shadow: inset 0 1px 0 rgba(255, 255, 255, .15), 0 1px 5px rgba(0, 0, 0, .075);
 }
 .navbar-default .navbar-nav > .active > a {
-  background-image: -webkit-linear-gradient(top, rgba(0, 0, 0, .7) 0%, rgba(0, 0, 0, .7) 100%);
-  background-image:         linear-gradient(to bottom, rgba(0, 0, 0, .7) 0%, rgba(0, 0, 0, .7) 100%);
-  filter: progid:DXImageTransform.Microsoft.gradient(startColorstr='#b3000000', endColorstr='#b3000000', GradientType=0);
+  background-image: -webkit-linear-gradient(top, rgba(72, 72, 72, .7) 0%, rgba(80, 80, 80, .7) 100%);
+  background-image:         linear-gradient(to bottom, rgba(72, 72, 72, .7) 0%, rgba(80, 80, 80, .7) 100%);
+  filter: progid:DXImageTransform.Microsoft.gradient(startColorstr='#b3484848', endColorstr='#b3505050', GradientType=0);
   background-repeat: repeat-x;
   -webkit-box-shadow: inset 0 3px 9px rgba(0, 0, 0, .075);
           box-shadow: inset 0 3px 9px rgba(0, 0, 0, .075);

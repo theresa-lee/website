@@ -25,7 +25,7 @@
 // ## Settings for some of the most global styles.
 
 //** Background color for `<body>`.
-@body-bg:               #1f1f1f;
+@body-bg:               rgb(30, 201, 179);
 //** Global text color on `<body>`.
 @text-color:            #fff;
 
@@ -43,13 +43,23 @@
 @font-family-serif:       Georgia, "Times New Roman", Times, serif;
 //** Default monospace fonts for `<code>`, `<kbd>`, and `<pre>`.
 @font-family-monospace:   Menlo, Monaco, Consolas, "Courier New", monospace;
-@font-family-base:        "LatoBold", Georgia, serif; //@font-family-sans-serif
+@font-family-base:        "LatoLight", Georgia, serif; //@font-family-sans-serif
 
 @font-family-1:			  "Novecento", Helvetica, Arial, sans-serif;
 
 @font-face {
 	font-family: 'LatoBold';
 	src: url("../../../font/Lato-Bol.ttf") format("truetype");
+}
+
+@font-face {
+  font-family: 'LatoLight';
+  src: url("../../../font/Lato-Lig.ttf") format("truetype");
+}
+
+@font-face {
+	font-family: 'LatoHair';
+	src: url("../../../font/Lato-Hai.ttf") format("truetype");
 }
 
 @font-face {
@@ -346,14 +356,14 @@
 @navbar-collapse-max-height:       340px;
 
 @navbar-default-color:             #777;
-@navbar-default-bg:                rgba(0, 0, 0, 0.7);
+@navbar-default-bg:                rgba(85, 85, 85, 0.7);
 @navbar-default-border:            #fff;
 
 // Navbar links
-@navbar-default-link-color:                #fff;
+@navbar-default-link-color:                #c4c4c4;
 @navbar-default-link-hover-color:          #fff;
-@navbar-default-link-hover-bg:             #9d3ee5;
-@navbar-default-link-active-color:         @gray-light;
+@navbar-default-link-hover-bg:             @navbar-default-bg;
+@navbar-default-link-active-color:         #fff;
 @navbar-default-link-active-bg:            inherit; 
 @navbar-default-link-disabled-color:       #ccc;
 @navbar-default-link-disabled-bg:          transparent;

@@ -10,7 +10,7 @@
   z-index: -2;
 }*/
 
-.bg {
+/*.bg {
   background: url('http://themes.pixelb.in/induction/wp-content/uploads/2013/06/IMG_5766.jpg') no-repeat center center fixed;
   position: fixed;
   width: 100%;
@@ -19,7 +19,7 @@
   top:0;
   left:0;
   z-index: -2;
-}
+} 8/17 */
 
 /*.bg {
   background: white;
@@ -31,7 +31,7 @@
   z-index: -2;
 }*/
 
-.bgfilter {
+/*.bgfilter {
   background-color: rgba(43,113,173,.85);
   position: fixed;
   width: 100%;
@@ -39,19 +39,23 @@
   top:0;
   left:0;
   z-index: -1;
-}
+} 8/17*/
+
+#testing { 
+  /*background: #2B97B3;*/
+  background: rgb(30, 201, 179);
+} 
 
 #greeting {
-  padding-top: 40px;
+  padding: 80px 0;
   /*color: #121212;*/
   /*text-shadow: #444 0 1px 1px;*/
   background:transparent;
 }
 
 #greeting > p {
-  font-family: 'Lora', sans-serif;
-  font-weight: 400;
-  font-style: italic;
+  font-family: 'LatoHair', sans-serif;
+  font-weight: 300;
   font-size: 20px;
 }
 
@@ -65,10 +69,25 @@
 }
 
 #c1 {
+  color: white;
   padding-bottom: 40px;
 }
 
+#greeting > p {
+  line-height: 24px;
+}
+
 #greetheader {
+  font-size: 60px;
+  padding-left: 10px;
+}
+
+.header {
+  font-size: 60px;
+  
+}
+
+p.header {
   font-size: 60px;
 }
 
@@ -88,13 +107,13 @@
 }
 
 #c2 {
-  padding-top: 40px;
+  padding-top: 70px;
+  background: #1d9fd3;
+  color: #0a5b7c;
 }
 
-#c2 p {
-  font-family: 'Lora', sans-serif;
-  font-weight: 400;
-  font-style: italic;
+.resumecontent p {
+  font-family: 'LatoLight', sans-serif;
   font-size: 20px;
 }
 
@@ -201,4 +220,28 @@ img#headshot {
   src: url("../font/Lato-Bol.ttf") format("truetype");
 }
 
+@font-face {
+  font-family: 'RobotoThin';
+  src: url("../font/Roboto-Thin.ttf") format("truetype");
+}
+
+@font-face {
+  font-family: 'RobotoLight';
+  src: url("../font/Roboto-Light.ttf") format("truetype");
+}
+
+@font-face {
+  font-family: 'RobotoRegular';
+  src: url("../font/Roboto-Regular.ttf") format("truetype");
+}
+
+@font-face {
+  font-family: 'LatoHair';
+  src: url("../font/Lato-Hai.ttf") format("truetype");
+}
+
+@font-face {
+  font-family: 'LatoLight';
+  src: url("../font/Lato-Lig.ttf") format("truetype");
+}
 
